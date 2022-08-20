@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules", "dist", "functions"],
+  "compilerOptions": {
+    "checkJs": true,
+    "baseUrl": "src",
+    "paths": {
+      "$lib/*": ["lib/*"],
+      "$components/*": ["components/*"]
+    }
+  }
+}
